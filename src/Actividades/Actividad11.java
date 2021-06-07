@@ -9,10 +9,10 @@ public class Actividad11 {
             for (int j = 0; j < 24; j++) {
                 if (i % 2 == 0) {
                     planner[i][j] = "No tengo planes";
-                    System.out.println("Dia " + (i+1) + " hora " + j + " " + planner[i][j]);
+                    System.out.println("Dia " + (i + 1) + " hora " + j + " " + planner[i][j]);
                 } else {
                     planner[i][j] = "Tengo planes";
-                    System.out.println("Dia " + (i+1) + " hora " + j + " " + planner[i][j]);
+                    System.out.println("Dia " + (i + 1) + " hora " + j + " " + planner[i][j]);
                 }
 
             }
